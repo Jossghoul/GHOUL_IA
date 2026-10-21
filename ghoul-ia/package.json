@@ -1,0 +1,12 @@
+{
+  "name": "ghoul-ia",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "test": "pnpm --filter @ghoul/agents test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "packageManager": "pnpm@10.28.0"
+}
